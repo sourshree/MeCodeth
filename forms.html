@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>Good Afternoon! Kindly fill the following form -</h3>
+    <form action="backend.py">
+        <div>
+            NAME : <input type="text"  name= myname>
+        </div>
+        <br>
+        <div>
+            OCCUPATION : <input type="text" name= mywork>
+        </div>
+        <br>
+        <div>
+            EMAIL : <input type="email" name= myemail>
+        </div>
+        <br>
+        <div>
+        
+            DOB : <input type="date" name= mybday>
+        </div>
+        <br>
+        
+        <div>
+            Are you elligible?  <input type="checkbox" name= myelligibility>
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="myGender">Female <input type="radio" name="myGender"> Transgender <input type="radio" name="myGender"> 
+        </div>
+        <br>
+        <div>
+            <label for="Car">CAR : 
+                <select name="myCar" id="Car">
+                   <option value="Ind">Indica</option>
+                   <option value="Swf">Swift</option>
+                   <option value="kia">Celltos</option>
+                   <option value="hyud">HondaCity</option>
+                   <option value="Mus">Mustang</option>
+                </select>
+            </label>
+        </div>
+        <h3> Thankyou for the response! <3 </h3>
+        <br>
+        <div>
+            <input type="submit" value="Click here to submit">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+</body> 
+</html>
